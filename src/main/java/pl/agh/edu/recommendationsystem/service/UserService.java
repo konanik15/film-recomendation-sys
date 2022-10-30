@@ -8,6 +8,8 @@ import org.springframework.transaction.annotation.Transactional;
 import pl.agh.edu.recommendationsystem.model.User;
 import pl.agh.edu.recommendationsystem.repositiory.UserRepository;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -24,7 +26,21 @@ public class UserService {
         return optionalUser.get();
     }
 
-    public void addUser(String userName) {
+    public void createUser(String userName) {
         userRepository.save(new User(userName));
+    }
+
+    public List<User> findAll() {
+        List<User> userList = new ArrayList<User>();
+        for (User user : userRepository.findAll()) {
+            userList.add(user);
+        }
+
+        return userList;
+
+    }
+
+    public void deleteUser(long id) {
+        userRepository.deleteById(id);
     }
 }

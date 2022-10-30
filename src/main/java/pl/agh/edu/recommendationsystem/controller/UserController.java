@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import pl.agh.edu.recommendationsystem.model.User;
 import pl.agh.edu.recommendationsystem.service.UserService;
 
+import java.util.List;
+
 @RestController
 @RequiredArgsConstructor
 public class UserController {
@@ -16,16 +18,31 @@ public class UserController {
         return "Hi from Spring Boot";
     }
 
-    @PostMapping("/api/user")
-    public void newUser(@RequestBody String userName) {
-        userService.addUser(userName);
+
+
+
+    @PostMapping("/api/user/createUser")
+    public void createUser(@RequestBody String userName) {
+        userService.createUser(userName);
         System.out.println("User " + userName + "created :)");
     }
 
+    @DeleteMapping("/api/user/deleteUser/{id}")
+    public void deleteUser(@PathVariable long id) throws Exception {
+        userService.deleteUser(id);
+        System.out.println("User with id:" + id + " deleted :)");
+    }
 
-    @GetMapping("api/user/{id}")
+
+
+    @GetMapping("api/user/findUser/{id}")
     public User getUserById(@PathVariable long id) throws Exception {
         return userService.findById(id);
+    }
+
+    @GetMapping("/api/user/getUserList")
+    public List<User> getUsers() {
+        return userService.findAll();
     }
 
 }
