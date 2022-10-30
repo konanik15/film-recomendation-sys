@@ -1,13 +1,13 @@
-package pl.agh.edu.recomendationsystem;
+package pl.agh.edu.recommendationsystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RecomendationSystemApplication {
+public class RecommendationSystemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RecomendationSystemApplication.class, args);
+		SpringApplication.run(RecommendationSystemApplication.class, args);
 	}
 
 }

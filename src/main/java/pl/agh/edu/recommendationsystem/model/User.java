@@ -1,4 +1,4 @@
-package pl.agh.edu.recomendationsystem.model;
+package pl.agh.edu.recommendationsystem.model;
 
 
 import lombok.Getter;

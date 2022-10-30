@@ -1,4 +1,4 @@
-package pl.agh.edu.recomendationsystem;
+package pl.agh.edu.recommendationsystem;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
