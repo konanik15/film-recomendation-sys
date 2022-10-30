@@ -1,2 +1,4 @@
-# film-recomendation-sys
-Small project for university
+# Film Recomendation System
+
+
+Based on Spring Boot, using MySql Db 
