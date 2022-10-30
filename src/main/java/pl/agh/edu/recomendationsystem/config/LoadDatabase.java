@@ -6,7 +6,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import pl.agh.edu.recomendationsystem.model.User;
-import pl.agh.edu.recomendationsystem.repositiories.UserRepositiory;
+import pl.agh.edu.recomendationsystem.repositiory.UserRepository;
 
 @Configuration
 public class LoadDatabase {
@@ -14,7 +14,7 @@ public class LoadDatabase {
     private static final Logger log = LoggerFactory.getLogger(LoadDatabase.class);
 
     @Bean
-    CommandLineRunner initDatabase(UserRepositiory repositiory) {
+    CommandLineRunner initDatabase(UserRepository repositiory) {
         return args -> {
             log.info("Preloading " + repositiory.save(new User("Franek")));
             log.info("Preloading " + repositiory.save(new User("Dawid")));
