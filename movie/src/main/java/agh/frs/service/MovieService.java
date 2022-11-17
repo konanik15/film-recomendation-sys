@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 
 public class MovieService {
     public static RestTemplate restTemplate = new RestTemplate();
-    public static final String MOVIES_URL = "http://api.themoviedb.org/3/movie/";
+    public static final String POPULAR_MOVIES_LINK = "http://api.themoviedb.org/3/movie/popular?";
     public static final String API_KEY = "c7a878cc32dd231fed3c6987e722bcaf";
     private static final Logger log = LoggerFactory.getLogger(MovieService.class);
 
@@ -18,19 +18,8 @@ public class MovieService {
         return null;
     }
 
-    public static Movie getRecommendation(int movieId){
-        String response = getRecommendationForMovie(movieId);
-        log.info(response);
-        return null;
-    }
-
     private static String getPopularMovies() {
-        return restTemplate.getForObject(MOVIES_URL + "popular?api_key=" + API_KEY + "&language=pl-PL&page=1",
-                String.class);
-    }
-
-    private static String getRecommendationForMovie(int movieId){
-        return restTemplate.getForObject(MOVIES_URL + movieId + "/recommendations?api_key=" + API_KEY + "&language=pl-PL&page=1",
+        return restTemplate.getForObject(POPULAR_MOVIES_LINK + "api_key=" + API_KEY + "&language=pl-PL&page=1",
                 String.class);
     }
 }
