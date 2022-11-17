@@ -17,11 +17,4 @@ public class MovieController {
         System.out.println("");
         return MovieService.getMovie();
     }
-
-    @GetMapping("/api/movie/getRecommendationForMovie")
-    public Movie getRecommendation(int movieId){
-        return MovieService.getRecommendation(movieId);
-    }
-
-
 }
