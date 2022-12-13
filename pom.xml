@@ -25,6 +25,7 @@
     <modules>
         <module>user</module>
         <module>movie-recommendation</module>
+        <module>movie-base</module>
     </modules>
 
 

@@ -1,23 +1,23 @@
 version: "3"
 services:
-  movie:
-    build:
-      context: /movie
-      dockerfile: Dockerfile
-    ports:
-      - "8080:8080"
-    networks:
-      - mysql-net
-    depends_on:
-      - user
-      - mysqldb
-
   movie-recommendation:
     build:
       context: /movie-recommendation
       dockerfile: Dockerfile
     ports:
       - "8082:8082"
+    networks:
+      - mysql-net
+    depends_on:
+      - user
+      - mysqldb
+
+  movie-base:
+    build:
+      context: /movie-base
+      dockerfile: Dockerfile
+    ports:
+      - "8084:8084"
     networks:
       - mysql-net
     depends_on:

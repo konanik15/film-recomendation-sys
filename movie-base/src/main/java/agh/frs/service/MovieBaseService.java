@@ -9,6 +9,7 @@ public class MovieBaseService {
     public static final String MOVIES_URL = "http://api.themoviedb.org/3/movie/";
     public static final String API_KEY = "c7a878cc32dd231fed3c6987e722bcaf";
 
+
     public static Result getMovies(){
         return new Gson().fromJson(getAllMovies(), Result.class);
     }
