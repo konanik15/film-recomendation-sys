@@ -1,6 +1,0 @@
-agh\frs\controller\MovieController.class
-agh\frs\MovieApplication.class
-agh\frs\config\LoadDatabase.class
-agh\frs\webclient\MovieClient.class
-agh\frs\service\MovieService.class
-agh\frs\model\Movie.class

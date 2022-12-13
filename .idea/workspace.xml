@@ -5,29 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="649a63a3-cd29-4978-9236-51795f19ab69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/movie-base/src/main/java/agh/frs/controller/MovieBaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-base/src/main/java/agh/frs/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-base/src/main/java/agh/frs/model/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-base/src/main/java/agh/frs/service/MovieBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-recommendation/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-recommendation/src/main/java/agh/frs/controller/MovieRecommendationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-recommendation/src/main/java/agh/frs/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-recommendation/src/main/java/agh/frs/model/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-recommendation/src/main/java/agh/frs/service/MovieRecommendationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_11_2022_16_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_11_2022_16_18__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/movie/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/movie/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/main/java/agh/frs/MovieApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/main/java/agh/frs/config/LoadDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/main/java/agh/frs/controller/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/main/java/agh/frs/model/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/main/java/agh/frs/service/MovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/main/java/agh/frs/webclient/MovieClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/classes/agh/frs/MovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/classes/agh/frs/config/LoadDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/classes/agh/frs/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/classes/agh/frs/model/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/classes/agh/frs/service/MovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/classes/agh/frs/webclient/MovieClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/movie-2.7.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/target/movie-2.7.5.jar.original" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +83,8 @@
     "Repository.Attach.Sources": "false",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
+    "RequestMappingsPanelWidth0": "15",
+    "RequestMappingsPanelWidth1": "15",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
