@@ -12,6 +12,18 @@ services:
       - user
       - mysqldb
 
+  movie-recommendation:
+    build:
+      context: /movie-recommendation
+      dockerfile: Dockerfile
+    ports:
+      - "8082:8082"
+    networks:
+      - mysql-net
+    depends_on:
+      - user
+      - mysqldb
+
 
   user:
     build:

@@ -9,12 +9,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="movie" />
         <module name="user" />
+        <module name="movie-base" />
+        <module name="movie-recommendation" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="movie" options="-parameters" />
+      <module name="movie-base" options="-parameters" />
+      <module name="movie-recommendation" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>
   </component>
