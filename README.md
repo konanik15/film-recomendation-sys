@@ -21,3 +21,5 @@ To start :
 Then :
 
 'docker-compose up --build'
+
+To use Prometheus copy config "prometheus.yml" to Prometheus directory and go to http://localhost:9090
