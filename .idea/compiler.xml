@@ -9,11 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="movie" />
         <module name="user" />
+        <module name="authentication" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authentication" options="-parameters" />
       <module name="movie" options="-parameters" />
       <module name="user" options="-parameters" />
     </option>

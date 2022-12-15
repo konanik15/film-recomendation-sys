@@ -27,8 +27,8 @@ public class UserService {
         return optionalUser.get();
     }
 
-    public void createUser(String userName) {
-        userRepository.save(new User(userName));
+    public void createUser(String userName, String userPassword) {
+        userRepository.save(new User(userName, userPassword));
     }
 
     public List<User> findAll() {
@@ -44,4 +44,12 @@ public class UserService {
     public void deleteUser(long id) {
         userRepository.deleteById(id);
     }
+
+//    do wywalenia
+
+    public List<User> findByNameAndPassword(String name, String password) {
+        List<User> userList = userRepository.findByNameAndPassword(name, password);
+        return userList;
+    }
+
 }

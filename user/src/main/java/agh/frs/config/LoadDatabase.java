@@ -17,8 +17,8 @@ public class LoadDatabase {
 //    @Bean
 //    CommandLineRunner initDatabase(UserRepository repositiory) {
 //        return args -> {
-//            log.info("Preloading " + repositiory.save(new User("Franek")));
-//            log.info("Preloading " + repositiory.save(new User("Dawid")));
+//            log.info("Preloading " + repositiory.save(new User("Franek","12345")));
+//            log.info("Preloading " + repositiory.save(new User("Dawid","password")));
 //        };
 //    }
 }

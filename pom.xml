@@ -25,6 +25,7 @@
     <modules>
         <module>user</module>
         <module>movie</module>
+        <module>authentication</module>
     </modules>
 
 
