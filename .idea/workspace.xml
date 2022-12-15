@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="649a63a3-cd29-4978-9236-51795f19ab69" name="Changes" comment="">
+    <list default="true" id="649a63a3-cd29-4978-9236-51795f19ab69" name="Changes" comment="fixed docker?">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-base/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-base/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-base/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-recommendation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-recommendation/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-recommendation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-recommendation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="movie_service_improvement" />
+        <entry key="$PROJECT_DIR$" value="movie_service_improvement_docker_configuration" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,7 +77,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gploc/Desktop/Studiaaaaaa/Semestr VII/Systemy rozproszone/Wersja 13122022 v2/film-recommendation-sys/movie-base&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Karakan Real Edition/IdeaProjects/film-recommendation-frontend&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -101,7 +103,33 @@
       <recent name="agh.frs" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RecommendationSystemApplication">
+  <component name="RunManager" selected="Application.MovieRecommendationApplication">
+    <configuration name="MovieBaseApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="agh.frs.MovieBaseApplication" />
+      <module name="movie-base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agh.frs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRecommendationApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="agh.frs.MovieRecommendationApplication" />
+      <module name="movie-recommendation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="agh.frs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovieBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="movie-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="agh.frs.MovieBaseApplication" />
@@ -112,19 +140,6 @@
     <configuration name="MovieRecommendationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="movie-recommendation" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="agh.frs.MovieRecommendationApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecommendationSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="user" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="agh.frs.RecommendationSystemApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="agh.frs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -144,19 +159,6 @@
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.movie-base: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="movie-base" />
-            </list>
-          </option>
           <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
@@ -185,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RecommendationSystemApplication" />
+        <item itemvalue="Application.MovieRecommendationApplication" />
+        <item itemvalue="Application.MovieBaseApplication" />
         <item itemvalue="Docker.movie-recommendation/Dockerfile" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose.yml.movie-recommendation: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.movie-base: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
