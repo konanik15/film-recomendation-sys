@@ -24,11 +24,9 @@
 
     <modules>
         <module>user</module>
-        <module>movie</module>
+        <module>movie-recommendation</module>
+        <module>movie-base</module>
     </modules>
-
-
-
 
 
 </project>

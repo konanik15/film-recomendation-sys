@@ -1,0 +1,6 @@
+agh\frs\RecommendationSystemApplication.class
+agh\frs\service\UserService.class
+agh\frs\config\LoadDatabase.class
+agh\frs\repositiory\UserRepository.class
+agh\frs\model\User.class
+agh\frs\controller\UserController.class
