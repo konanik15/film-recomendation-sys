@@ -5,21 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="649a63a3-cd29-4978-9236-51795f19ab69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/authentication/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_11_2022_17_30_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_14_11_2022_17_30__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/AuthenticationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/config/RSAKeyProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/controller/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/model/LoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/service/TokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/certificates/private.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/certificates/public.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/AuthenticationApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/config/RSAKeyProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/controller/AuthenticationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/model/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/service/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/certificates/private.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authentication/target/classes/certificates/public.pem" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/config/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/config/LoadDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/repositiory/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/repositiory/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/repositiory/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/repositiory/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +55,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="token-authentication-progress-branch" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
@@ -77,11 +102,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/gracz/Desktop/Studia/Semestr 7/Systemy rozproszone i Aplikacje Webowe/Code/film-recommendation-sys/authentication/src/main/resources",
+    "last_opened_file_path": "C:/Users/gracz/Desktop/pokemon-review-springboot",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">

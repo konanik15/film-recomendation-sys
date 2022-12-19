@@ -7,8 +7,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -27,6 +25,10 @@ public class UserService {
         return optionalUser.get();
     }
 
+    public Optional<User> findByName(String name) {
+        Optional<User> user = userRepository.findByName(name);
+        return user;
+    }
     public void createUser(String userName, String userPassword) {
         userRepository.save(new User(userName, userPassword));
     }
@@ -46,10 +48,8 @@ public class UserService {
     }
 
 //    do wywalenia
-
-    public List<User> findByNameAndPassword(String name, String password) {
-        List<User> userList = userRepository.findByNameAndPassword(name, password);
-        return userList;
-    }
-
+//    public List<User> findByNameAndPassword(String name, String password) {
+//        List<User> userList = userRepository.findByNameAndPassword(name, password);
+//        return userList;
+//    }
 }
