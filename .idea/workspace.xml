@@ -5,41 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="649a63a3-cd29-4978-9236-51795f19ab69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/AuthenticationApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/config/RSAKeyProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/controller/AuthenticationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/model/LoginRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/java/authentication/service/TokenService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/certificates/private.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/src/main/resources/certificates/public.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/AuthenticationApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/config/RSAKeyProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/controller/AuthenticationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/model/LoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/authentication/service/TokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/certificates/private.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authentication/target/classes/certificates/public.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/repositiory/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/repositiory/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/repositiory/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/repositiory/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,19 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/gracz/Desktop/pokemon-review-springboot",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/gracz/Desktop/pokemon-review-springboot&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gracz\Desktop\Studia\Semestr 7\Systemy rozproszone i Aplikacje Webowe\Code\film-recommendation-sys\authentication\src\main\resources" />
