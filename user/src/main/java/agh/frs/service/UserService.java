@@ -7,8 +7,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -27,8 +25,12 @@ public class UserService {
         return optionalUser.get();
     }
 
-    public void createUser(String userName) {
-        userRepository.save(new User(userName));
+    public Optional<User> findByName(String name) {
+        Optional<User> user = userRepository.findByName(name);
+        return user;
+    }
+    public void createUser(String userName, String userPassword) {
+        userRepository.save(new User(userName, userPassword));
     }
 
     public List<User> findAll() {
@@ -44,4 +46,5 @@ public class UserService {
     public void deleteUser(long id) {
         userRepository.deleteById(id);
     }
+
 }

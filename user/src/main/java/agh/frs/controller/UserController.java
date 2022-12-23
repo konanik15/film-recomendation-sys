@@ -5,9 +5,8 @@ import agh.frs.model.User;
 import agh.frs.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-
-
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor
@@ -21,11 +20,9 @@ public class UserController {
     }
 
 
-
-
     @PostMapping("/api/user/createUser")
-    public void createUser(@RequestBody String userName) {
-        userService.createUser(userName);
+    public void createUser(@RequestBody String userName,@RequestBody String userPassword) {
+        userService.createUser(userName, userPassword);
         System.out.println("User " + userName + "created :)");
     }
 
@@ -46,5 +43,10 @@ public class UserController {
     public List<User> getUsers() {
         return userService.findAll();
     }
+    @GetMapping("/api/user/findByName")
+    public Optional<User> findByName(String userName){return userService.findByName(userName);}
 
+//        do wywalenia
+//    @GetMapping("/api/user/findByNameAndPassword")
+//    public List<User> findByNameAndPassword(String userName, String userPassword){return userService.findByNameAndPassword(userName, userPassword);}
 }
