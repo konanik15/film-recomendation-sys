@@ -41,7 +41,8 @@ services:
     image: mysql:latest
     networks:
       - mysql-net
-
+    ports:
+      - "3306:3306"
     environment:
       - MYSQL_DATABASE=filmRecommendationDb
       - MYSQL_ROOT_PASSWORD=root

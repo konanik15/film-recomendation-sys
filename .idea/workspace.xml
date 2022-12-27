@@ -7,17 +7,23 @@
     <list default="true" id="649a63a3-cd29-4978-9236-51795f19ab69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_11_2022_16_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_11_2022_16_18__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-base/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-base/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-recommendation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-recommendation/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/movie-recommendation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-recommendation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/repositiory/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/repositiory/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/controller/AuthController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/security/JWTGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/security/JWTGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/security/SecurityConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/security/SecurityConstant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="movie_service_improvement" />
+        <entry key="$PROJECT_DIR$" value="authorization-docker-ready" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,22 +50,6 @@
       <list>
         <option value="main" />
       </list>
-    </option>
-  </component>
-  <component name="JpbToolWindowState">
-    <option name="myId2FirstActivated">
-      <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
-    </option>
-    <option name="myId2Visible">
-      <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
-      </map>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -104,7 +94,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.27701148",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "spring.configuration.checksum": "a2a5434b6df3a88a978ffae66c5c3760",
+    "spring.configuration.checksum": "730c51e4f01f8ca8ff8c9ae6c6d933ff",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -125,19 +115,7 @@
       <recent name="agh.frs.repositiory" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile">
-        <settings />
-      </deployment>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.MovieRecommendationApplication">
     <configuration name="MovieBaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="movie-base" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="agh.frs.MovieBaseApplication" />
@@ -164,6 +142,18 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
@@ -207,6 +197,11 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RecommendationSystemApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -221,6 +216,7 @@
       <workItem from="1671006853732" duration="3510000" />
       <workItem from="1671020864281" duration="1453000" />
       <workItem from="1671023377254" duration="3489000" />
+      <workItem from="1672165330937" duration="3724000" />
     </task>
     <servers />
   </component>
