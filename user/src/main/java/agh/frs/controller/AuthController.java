@@ -62,8 +62,8 @@ public class AuthController {
         user.setName(registerDto.getUsername());
         user.setPassword(passwordEncoder.encode(registerDto.getPassword()));
 //        user.setPassword(registerDto.getPassword());
-
-        Role roles = roleRepository.findByName("USER").get();
+        //TODO TEMP FIX
+        Role roles = roleRepository.getById(1);
         user.setRoles(Collections.singletonList(roles));
 
         userRepository.save(user);
