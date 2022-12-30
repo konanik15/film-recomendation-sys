@@ -1,5 +1,8 @@
 package agh.frs.config;
 
+
+import agh.frs.repositiory.RoleRepository;
+import agh.frs.model.Role;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
@@ -12,13 +15,12 @@ public class LoadDatabase {
 
     private static final Logger log = LoggerFactory.getLogger(LoadDatabase.class);
 
-    //Adding 2 users at the start of program
 
-//    @Bean
-//    CommandLineRunner initDatabase(UserRepository repositiory) {
-//        return args -> {
-//            log.info("Preloading " + repositiory.save(new User("Franek")));
-//            log.info("Preloading " + repositiory.save(new User("Dawid")));
-//        };
-//    }
+
+    @Bean
+    CommandLineRunner initDatabase(RoleRepository repositiory) {
+        return args -> {
+            log.info("Preloading " + repositiory.save(new Role("USER")));
+        };
+    }
 }
