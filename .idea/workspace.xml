@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="649a63a3-cd29-4978-9236-51795f19ab69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_11_2022_16_18__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_11_2022_16_18__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-base/src/main/java/agh/frs/security/SecurityConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-base/src/main/java/agh/frs/security/SecurtityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-recommendation/src/main/java/agh/frs/security/SecurityConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-recommendation/src/main/java/agh/frs/security/SecurtityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-base/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-base/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-recommendation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-recommendation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/security/SecurityConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/security/JWTGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/security/JWTGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/security/SecurityConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/security/SecurityConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-base/src/main/java/agh/frs/controller/MovieBaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-base/src/main/java/agh/frs/controller/MovieBaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-recommendation/src/main/java/agh/frs/controller/MovieRecommendationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-recommendation/src/main/java/agh/frs/controller/MovieRecommendationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/RecommendationSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/RecommendationSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/config/LoadDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/config/LoadDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/agh/frs/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/agh/frs/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/RecommendationSystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/RecommendationSystemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/config/LoadDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/config/LoadDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/model/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/model/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/agh/frs/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/agh/frs/model/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/user/target/user-0.0.1-SNAPSHOT.jar" afterDir="false" />
@@ -40,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="authorization-docker-ready" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,7 +84,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/gracz/Desktop/Studia/Semestr 7/Systemy rozproszone i Aplikacje Webowe/Code/frontAndBack/film-recommendation-sys/user/src/main/java/agh/frs",
+    "last_opened_file_path": "C:/Users/gracz/Desktop/film-recommendation-sys",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,6 +110,7 @@
       <recent name="agh.frs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="agh.frs.security" />
       <recent name="agh.frs.controller" />
       <recent name="agh.frs.model" />
       <recent name="agh.frs.repositiory" />
@@ -217,6 +218,8 @@
       <workItem from="1671020864281" duration="1453000" />
       <workItem from="1671023377254" duration="3489000" />
       <workItem from="1672165330937" duration="3724000" />
+      <workItem from="1672400010366" duration="3000" />
+      <workItem from="1672400018612" duration="3504000" />
     </task>
     <servers />
   </component>

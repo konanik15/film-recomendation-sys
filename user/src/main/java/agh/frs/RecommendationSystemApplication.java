@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 
 @SpringBootApplication
-@EnableAutoConfiguration
 public class RecommendationSystemApplication {
 
 	public static void main(String[] args) {
