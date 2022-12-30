@@ -44,7 +44,7 @@ public class UserController {
         return userService.findAll();
     }
     @CrossOrigin
-    @GetMapping("/api/user/findByName")
+    @GetMapping("/api/user/findByName/{userName}")
     public Optional<User> findByName(@PathVariable String userName){return userService.findByName(userName);}
 
 
