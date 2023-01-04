@@ -21,6 +21,9 @@ public class User {
     private Long id;
     private String name;
     private String password;
+    private int movieId = 0;
+
+
 
     public User(String name, String password) {
         this.name = name;
