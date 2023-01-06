@@ -33,6 +33,10 @@ public class UserService {
         userRepository.save(new User(userName, userPassword));
     }
 
+    public void createUser(User user) {
+        userRepository.save(user);
+    }
+
     public List<User> findAll() {
         List<User> userList = new ArrayList<User>();
         for (User user : userRepository.findAll()) {
