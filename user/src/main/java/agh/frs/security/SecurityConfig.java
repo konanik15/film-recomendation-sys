@@ -48,6 +48,7 @@ public class SecurityConfig {
 //                .antMatchers("/api/user/getUserList").hasRole("USER")
                 .antMatchers("/swagger-ui/**", "/v3/api/docks/**").permitAll()
                 .antMatchers("/api/user/**").permitAll()
+                .antMatchers("/actuator/**").permitAll()
                 .antMatchers(("/api/movie/**")).authenticated()
                 .anyRequest().authenticated()
                 .and()
