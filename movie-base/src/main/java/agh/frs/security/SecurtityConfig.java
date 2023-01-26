@@ -28,6 +28,7 @@ public class SecurtityConfig {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/api/movie/**").permitAll()
+                .antMatchers("/actuator/**").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .httpBasic();
