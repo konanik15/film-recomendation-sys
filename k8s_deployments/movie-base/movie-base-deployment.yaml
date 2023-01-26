@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: movie-base
+spec:
+  selector:
+    matchLabels:
+      app: movie-base
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: movie-base
+    spec:
+      containers:
+        - name: movie-base
+          image: msterzel/film-recommendation-sys-movie-base:version2
+          ports:
+            - containerPort: 8084
+              name: "http"
+          env:
+            - name: DB_NAME
+              value: filmRecommendationDb
+            - name: DB_USERNAME
+              value: root
+            - name: DB_PASSWORD
+              value: root
+            - name: DB_HOST
+              value: $(MYSQL_DB_SERVICE_SERVICE_HOST)
+          resources:
+            limits:
+              memory: 2Gi
+              cpu: "1"

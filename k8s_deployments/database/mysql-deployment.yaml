@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-db
+spec:
+  selector:
+    matchLabels:
+      app: mysql-db
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: mysql-db
+    spec:
+      containers:
+      - name: mysql-db
+        image: mysql:latest
+        ports:
+        - containerPort: 3306
+          name: "mysql"
+        volumeMounts:
+        - name: mysql-data-storage
+          # mountPath: "/var/lib/mysql"
+          mountPath: "/home/mysql"
+        env:
+        - name: MYSQL_DATABASE
+          value: filmRecommendationDb
+        - name: MYSQL_ROOT_PASSWORD
+          value: root
+        resources:
+          limits:
+            memory: 4Gi
+            cpu: "2"
+      volumes:
+      - name: mysql-data-storage
+        persistentVolumeClaim:
+          claimName: mysql-data-persisent-volume-claim
+
